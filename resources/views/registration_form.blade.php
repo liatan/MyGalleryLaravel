@@ -6,13 +6,15 @@
 if (!isset($_SESSION["login"])) {
     if (isset($_SESSION["error_reg"])) {
         unset($_SESSION["error_reg"]);
-        echo '<script type="text/javascript" src="JS/registration_error.jsx"></script>' ;
+        echo '<script src="/js/errors_js.js"></script>' ;
     }   
     
 ?>
+
 <div id="registration_block">
     <h2>Форма регистрации</h2>
-    <form action="registration.php" method="post">
+    <form id="registration_form" action="{{ route('reg_submit') }}" method="post">
+        @csrf
         <fieldset>
             <input type="login" name="login" placeholder="Введите логин" required="required">
             <input type="email" name="email" placeholder="Введите email" required="required">
@@ -21,9 +23,10 @@ if (!isset($_SESSION["login"])) {
             <input type="submit" name="btn_submit_registration" value="Зарегистрироватся!">
         </fieldset>
     </form>
+   
 </div>
 
-<script src="JS/registration_form_validation.jsx"></script>
+
 <?php
 } else {
 ?>

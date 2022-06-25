@@ -11,6 +11,17 @@ body {
     flex-direction: column;
 }
 
+.example_text {
+    display: block;
+    background: rgb(255, 255, 255);
+    border: #ffffff;
+    height: 200px;
+    width: 250px;
+    margin-top: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 #content {
     flex: 1 0 auto;
 }

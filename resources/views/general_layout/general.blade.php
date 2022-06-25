@@ -23,11 +23,14 @@ session_start();
 
 <body>
     <div id="content">
+
         @include('includes.header')
         @yield('main_content')
-        
+
     </div>
-    
+    <script src="/js/all_js.js"></script>
 </body>
-    @include('includes.footer')
+
+@include('includes.footer')
+
 </html>

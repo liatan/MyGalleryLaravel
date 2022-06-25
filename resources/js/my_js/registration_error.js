@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
     var login = $("input[name=login]");
     var email = $("input[name=email]");
     var pass = $("input[name=password]");

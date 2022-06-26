@@ -257,12 +257,6 @@ h2 {
     cursor: pointer;
 }
 
-
-/* .user_more_profile_info_cancel {
-    text-align: unset;
-    text-indent: 43%;
-} */
-
 .user_more_profile_info_cancel:hover,
 .user_more_profile_info:hover {
     background-color: #dbdada98;
@@ -553,7 +547,6 @@ h2 {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    /* box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3); */
 }
 
 .popup {

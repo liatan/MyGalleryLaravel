@@ -29,5 +29,3 @@ mix.js([
         'resources/js/my_js/registration_error.js'
     ],
     'public/js/errors_js.js');
-mix.react('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');

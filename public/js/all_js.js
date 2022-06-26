@@ -11091,15 +11091,8 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) {
-  "@babel/helpers - typeof";
+/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
-  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
-    return typeof obj;
-  } : function (obj) {
-    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-  }, _typeof(obj);
-}
 /*!
  * dist/jquery.inputmask
  * https://github.com/RobinHerbots/Inputmask
@@ -11107,8 +11100,6 @@ $(document).ready(function () {
  * Licensed under the MIT license
  * Version: 5.0.8-beta.1
  */
-
-
 !function (e, t) {
   if ("object" == ( false ? undefined : _typeof(exports)) && "object" == ( false ? undefined : _typeof(module))) module.exports = t(__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"));else if (true) !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (t),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
@@ -14757,23 +14748,14 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) {
-  "@babel/helpers - typeof";
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
-  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
-    return typeof obj;
-  } : function (obj) {
-    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-  }, _typeof(obj);
-}
 /*
     jQuery Masked Input Plugin
     Copyright (c) 2007 - 2015 Josh Bush (digitalbush.com)
     Licensed under the MIT license (http://digitalbush.com/projects/masked-input-plugin/#license)
     Version: 1.4.1
 */
-
-
 !function (factory) {
    true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
@@ -15108,21 +15090,10 @@ $(document).ready(function () {
 
 /***/ }),
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 0:
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/my_js/menu_slide.js ./resources/js/my_js/dragAndDrop.js ./resources/js/my_js/image_zoom_on_click.js ./resources/js/my_js/jquery.inputmask.js ./resources/js/my_js/jquery.maskedinput.js ./resources/js/my_js/selected_images.js ./resources/js/my_js/user_password_change.js ./resources/js/my_js/user_profile_change.js ./resources/sass/app.scss ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/my_js/menu_slide.js ./resources/js/my_js/dragAndDrop.js ./resources/js/my_js/image_zoom_on_click.js ./resources/js/my_js/jquery.inputmask.js ./resources/js/my_js/jquery.maskedinput.js ./resources/js/my_js/selected_images.js ./resources/js/my_js/user_password_change.js ./resources/js/my_js/user_profile_change.js ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15133,8 +15104,7 @@ __webpack_require__(/*! C:\OpenServer\domains\mygallery\resources\js\my_js\jquer
 __webpack_require__(/*! C:\OpenServer\domains\mygallery\resources\js\my_js\jquery.maskedinput.js */"./resources/js/my_js/jquery.maskedinput.js");
 __webpack_require__(/*! C:\OpenServer\domains\mygallery\resources\js\my_js\selected_images.js */"./resources/js/my_js/selected_images.js");
 __webpack_require__(/*! C:\OpenServer\domains\mygallery\resources\js\my_js\user_password_change.js */"./resources/js/my_js/user_password_change.js");
-__webpack_require__(/*! C:\OpenServer\domains\mygallery\resources\js\my_js\user_profile_change.js */"./resources/js/my_js/user_profile_change.js");
-module.exports = __webpack_require__(/*! C:\OpenServer\domains\mygallery\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\OpenServer\domains\mygallery\resources\js\my_js\user_profile_change.js */"./resources/js/my_js/user_profile_change.js");
 
 
 /***/ })

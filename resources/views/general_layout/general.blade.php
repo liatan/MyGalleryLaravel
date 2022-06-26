@@ -14,7 +14,7 @@ session_start();
     <!-- <script src="JS/jquery.inputmask.js"></script> -->
     <title>MyGallery</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/mystyle.css">
+    <link rel="stylesheet" href="/css/mystyle.css">   
     <link rel="shortcut icon" href="main.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -1,15 +1,25 @@
 @extends('general_layout.general')
 
 @section('main_content')
-<?php
 
+<?php
 if (!isset($_SESSION["login"])) {
-    if (isset($_SESSION["error_reg"])) {
-        unset($_SESSION["error_reg"]);
-        echo '<script src="/js/errors_js.js"></script>' ;
-    }   
-    
+//     if (isset($_SESSION["error_reg"])) {
+//         unset($_SESSION["error_reg"]);
+//         echo '<script src="/js/errors_js.js"></script>' ;
+//     }     
+//  --}}
 ?>
+
+@if($errors->any())
+<div class="alert alert-danger">
+    <ul>
+        @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+        @endforeach
+    </ul>
+</div>
+@endif
 
 <div id="registration_block">
     <h2>Форма регистрации</h2>

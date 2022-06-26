@@ -18,7 +18,7 @@ mix.js(['resources/js/my_js/menu_slide.js',
         'resources/js/my_js/jquery.inputmask.js',
         'resources/js/my_js/jquery.maskedinput.js',
 
-        'resources/js/my_js/registration_form_validation.js',
+        // 'resources/js/my_js/registration_form_validation.js',
         'resources/js/my_js/selected_images.js',
         'resources/js/my_js/user_password_change.js',
         'resources/js/my_js/user_profile_change.js'
@@ -29,4 +29,5 @@ mix.js([
         'resources/js/my_js/registration_error.js'
     ],
     'public/js/errors_js.js');
-// .styles('resources/css/mystyle.css', 'public/css/mystyle.css');
+mix.react('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css');

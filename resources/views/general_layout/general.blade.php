@@ -25,6 +25,9 @@ session_start();
     <div id="content">
 
         @include('includes.header')
+
+        @include('includes.messages')
+        
         @yield('main_content')
 
     </div>

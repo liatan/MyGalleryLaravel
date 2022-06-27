@@ -22,6 +22,8 @@ Route::get('/registration', function () {
 
 Route::post('/registration/submit', 'RegistrationController@submit')->name('reg_submit');
 
+Route::post('/authorization/submit', 'AuthorizationController@submit')->name('auth_submit');
+
 Route::get('/authorization', function () {
     return view('log_on_form');
 })->name('authorization');

@@ -13,7 +13,8 @@ if (!isset($_SESSION["login"]) && !isset($_SESSION["password"])) {
 ?>
 <div id="authorization_block">
     <h2>Форма авторизации</h2>
-    <form id="auth_form" action="log_on.php" method="post" >
+    <form id="authorization_form" action="{{ route('auth_submit') }}" method="post" >
+        @csrf
         <fieldset>
             <input type="login" name="login" placeholder="Введите логин" required="required">
             <input type="password" name="password" placeholder="Введите пароль" required="required">

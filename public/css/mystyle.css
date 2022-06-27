@@ -15,11 +15,9 @@ body {
     display: block;
     background: rgb(255, 255, 255);
     border: #ffffff;
-    height: 200px;
-    width: 250px;
-    margin-top: 30%;
-    margin-left: 25%;
-    margin-right: 25%;
+    height: auto;
+    width: 50%;
+    margin-left: 23%;
 }
 
 #content {
@@ -27,7 +25,7 @@ body {
 }
 
 #header {
-    position: fixed;
+    position: static;
     z-index: 100;
     left: 0;
     top: 0;
@@ -72,7 +70,7 @@ h2 {
     margin-top: 0%;
     margin-left: 7%;
     margin-right: 7%;
-    width: 35%;
+    width: 40%;
     height: 50px;
 }
 
@@ -100,7 +98,7 @@ h2 {
     position: fixed;
     right: 15%;
     top: 0%;
-    width: 150px;
+    min-width: 10%;
     height: 50px;
     margin: 0 auto;
     background-color: #e0d6b4;
@@ -120,7 +118,7 @@ h2 {
     position: absolute;
     top: 50px;
     right: 0%;
-    width: 190px;
+    width: 100%;
     background-color: #ebe4cd;
     display: none;
     padding: 10px 0;
@@ -139,7 +137,7 @@ h2 {
     display: block;
     float: left;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
@@ -695,4 +693,32 @@ footer {
     display: block;
     text-align: left;
     padding: 5px;
+}
+
+.alert {
+    display: inline-block;
+    margin-top: 6%;
+    margin-left: 23%;
+    width: 50%;
+    --bs-alert-bg: transparent;
+    --bs-alert-padding-x: 1rem;
+    --bs-alert-padding-y: 1rem;
+    --bs-alert-margin-bottom: 1rem;
+    --bs-alert-color: inherit;
+    --bs-alert-border-color: transparent;
+    --bs-alert-border: 1px solid var(--bs-alert-border-color);
+    --bs-alert-border-radius: 0.375rem;
+    position: relative;
+    padding: var(--bs-alert-padding-y) var(--bs-alert-padding-x);
+    margin-bottom: var(--bs-alert-margin-bottom);
+    color: var(--bs-alert-color);
+    background-color: var(--bs-alert-bg);
+    border: var(--bs-alert-border);
+    border-radius: var(--bs-alert-border-radius, 0);
+}
+
+.alert-success {
+    --bs-alert-color: #227444;
+    --bs-alert-bg: #d7f3e3;
+    --bs-alert-border-color: #c3ecd5;
 }
